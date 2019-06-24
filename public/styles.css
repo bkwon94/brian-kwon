@@ -1,3 +1,4 @@
+/***** GENERAL *****/
 
 * {
   margin: 0;
@@ -10,4 +11,26 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+.container {
+  height: 100vh;
+}
+
 /***** MAIN SECTION *****/
+.main-text {
+  font-size: initial;
+  color: #FFF;
+}
+
+@media screen and (min-width: 600px) {
+  .main-text {
+    font-size: 32px;
+  }
+}
+
+.main-container {
+  background: #252934;
+}
+
+#name {
+  color: #57E2E5;
+}

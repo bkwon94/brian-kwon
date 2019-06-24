@@ -2,11 +2,13 @@ import React from 'react';
 
 const Main = () => {
   return (
-    <div>
-      <section>
+    <div id="main">
+      <section class="container main-container">
         <div className="main-text">
-          Hello, my name is Brian Kwon.
-          I'm a full-stack web developer.
+          Hello, my name is <span id="name">Brian Kwon</span>.
+          <div>
+            I'm a full-stack web developer.
+          </div>
         </div>
       </section>
     </div>
