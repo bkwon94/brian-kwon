@@ -18,13 +18,17 @@ body {
 
 /***** MAIN SECTION *****/
 .main-text {
-  font-size: 20px;
+  font-size: 28px;
   color: #FFF;
+  margin: 10px;
+  padding: 15px;
+  line-height: 35px;
 }
 
 @media screen and (min-width: 600px) {
   .main-text {
-    font-size: 32px;
+    font-size: 42px;
+    line-height: 45px;
   }
 }
 
@@ -42,24 +46,31 @@ body {
 }
 
 .button {
-  /* display: inherit; */
   align-self: center;
   border: 2px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  padding: 7px 1px;
 }
-
 
 @media screen and (min-width: 600px) {
   .button {
-    width: 30%;
+    width: 270px;
+    height: 45px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .button {
-    width: 75%;
+    width: 65%;
   }
 }
 
+#arrow {
+  font-size: 18px;
+  padding-left: 10px;
+}
 
 /***** ABOUT SECTION *****/
 .about-container {

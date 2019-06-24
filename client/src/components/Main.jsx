@@ -12,7 +12,7 @@ const Main = () => {
         </div>
 
         <div className="button">
-          Get to know me
+          Get to know me <i id="arrow" className="fas fa-arrow-down"></i>
         </div>
       </section>
     </div>
