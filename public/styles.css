@@ -17,7 +17,7 @@ body {
 
 /***** MAIN SECTION *****/
 .main-text {
-  font-size: initial;
+  font-size: 20px;
   color: #FFF;
 }
 
@@ -33,4 +33,20 @@ body {
 
 #name {
   color: #57E2E5;
+}
+
+
+/***** ABOUT SECTION *****/
+.about-container {
+  background: #FFF;
+}
+
+/***** PROJECTS SECTION *****/
+.projects-container {
+  background: #EEE;
+}
+
+/***** CONTACT SECTION *****/
+.contact-container {
+  background: #FFF;
 }

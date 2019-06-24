@@ -3,7 +3,7 @@ import React from 'react';
 const Main = () => {
   return (
     <div id="main">
-      <section class="container main-container">
+      <section className="container main-container">
         <div className="main-text">
           Hello, my name is <span id="name">Brian Kwon</span>.
           <div>

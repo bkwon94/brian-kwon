@@ -2,8 +2,10 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <div>
-      Hello World
+    <div id="projects">
+      <section className="container projects-container">
+        <div>PROJECTS</div>
+      </section>
     </div>
   )
 }
