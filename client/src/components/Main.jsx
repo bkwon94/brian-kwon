@@ -10,6 +10,10 @@ const Main = () => {
             I'm a full-stack web developer.
           </div>
         </div>
+
+        <div className="button">
+          Get to know me
+        </div>
       </section>
     </div>
   )
