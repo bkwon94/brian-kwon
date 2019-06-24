@@ -3,7 +3,12 @@ import React from 'react';
 const Main = () => {
   return (
     <div>
-      Hello World
+      <section>
+        <div className="main-text">
+          Hello, my name is Brian Kwon.
+          I'm a full-stack web developer.
+        </div>
+      </section>
     </div>
   )
 }
