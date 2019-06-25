@@ -89,14 +89,23 @@ body {
   background: #FFF;
 }
 
-.nav {
+.nav-container {
   display: flex;
-  list-style: none;
+  width: 100%;
+  /* height: 7.5vh; */
+  background: #252934;
+  padding: 15px;
+}
+
+.nav-item {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-basis: 100px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
 }
-
 
 /***** PROJECTS SECTION *****/
 .projects-container {
