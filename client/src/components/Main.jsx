@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 
 const Main = () => {
   return (
@@ -11,9 +12,11 @@ const Main = () => {
           </div>
         </div>
 
-        <div className="button">
+        <NavLink smooth to="#about" className="button">
+        {/* <div className="button"> */}
           Get to know me <i id="arrow" className="fas fa-arrow-down"></i>
-        </div>
+        {/* </div> */}
+        </NavLink>
       </section>
     </div>
   )

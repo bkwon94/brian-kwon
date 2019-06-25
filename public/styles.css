@@ -41,7 +41,8 @@ body {
 
 #name {
   /* color: #57E2E5; */
-  color: #0adcff;
+  /* color: #0adcff; */
+  color: #E31B6D;
   font-weight: 700;
 }
 
@@ -52,6 +53,15 @@ body {
   color: #fff;
   font-size: 20px;
   padding: 7px 1px;
+  text-decoration: none;
+}
+
+.button:hover {
+  /* border: 2px solid #00d5a0; */
+  border: 2px solid #4169E1;
+  background: #4169E1;
+  transition: 0.6s;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 600px) {
@@ -69,7 +79,7 @@ body {
 
 #arrow {
   font-size: 18px;
-  padding-left: 10px;
+  padding-left: 7.5px;
 }
 
 /***** ABOUT SECTION *****/
