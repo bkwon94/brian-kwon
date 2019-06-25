@@ -5,7 +5,7 @@ const Main = () => {
   return (
     <div id="main">
       <section className="container main-container">
-        <div className="main-text">
+        <div className="main-text glitch">
           Hello, my name is <span id="name">Brian Kwon</span>.
           <div>
             I'm a full-stack web developer.
@@ -14,7 +14,8 @@ const Main = () => {
 
         <NavLink smooth to="#about" className="button">
         {/* <div className="button"> */}
-          Get to know me <i id="arrow" className="fas fa-arrow-down"></i>
+            Get to know me <i id="arrow" className="fas fa-arrow-down"></i>
+
         {/* </div> */}
         </NavLink>
       </section>

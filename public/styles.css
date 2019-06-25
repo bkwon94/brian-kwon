@@ -42,7 +42,7 @@ body {
 #name {
   /* color: #57E2E5; */
   /* color: #0adcff; */
-  color: #E31B6D;
+  color: #0adcff;
   font-weight: 700;
 }
 
@@ -58,11 +58,12 @@ body {
 
 .button:hover {
   /* border: 2px solid #00d5a0; */
-  border: 2px solid #4169E1;
-  background: #4169E1;
+  border: 2px solid #00d5a0;
+  background: #00d5a0;
   transition: 0.6s;
   cursor: pointer;
 }
+
 
 @media screen and (min-width: 600px) {
   .button {
@@ -82,10 +83,20 @@ body {
   padding-left: 7.5px;
 }
 
+
 /***** ABOUT SECTION *****/
 .about-container {
   background: #FFF;
 }
+
+.nav {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /***** PROJECTS SECTION *****/
 .projects-container {
