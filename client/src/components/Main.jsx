@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 
-const Main = () => {
+const Main = ({ setSection }) => {
   return (
     <div id="main">
       <section className="container main-container">
@@ -12,7 +12,7 @@ const Main = () => {
           </div>
         </div>
 
-        <NavLink smooth to="#about" className="button">
+        <NavLink smooth to="#about" className="button" onClick={() => setSection('about')}>
         {/* <div className="button"> */}
             Get to know me <i id="arrow" className="fas fa-arrow-down"></i>
 

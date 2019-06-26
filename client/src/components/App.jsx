@@ -7,10 +7,13 @@ import Projects from './Projects.jsx';
 
 
 const App = () => {
+
+  const [currentSection, setCurrentSection] = useState('');
+
   return (
     <div>
-      <Main />
-      <About />
+      <Main setSection={setCurrentSection}/>
+      <About currentSection={currentSection} setSection={setCurrentSection}/>
       <Projects />
       <Contact />
     </div>
