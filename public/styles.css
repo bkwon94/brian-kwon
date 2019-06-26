@@ -96,6 +96,8 @@ body {
   background: #252934;
   padding: 15px;
   box-shadow: 0 0 5px #00d5a0;
+  position: sticky;
+  top: 0;
 }
 
 .nav-item {
