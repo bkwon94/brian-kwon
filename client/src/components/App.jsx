@@ -25,13 +25,15 @@ const App = () => {
 
         <NavLink smooth to="#main" className="nav-item">Home</NavLink>
 
+        {/* <NavLink smooth to="#about" className="nav-item">About</NavLink> */}
+
         {currentSection === 'about' ? <NavLink smooth to="#about" className="nav-item about-highlight">About</NavLink> : <NavLink smooth to="#about" className="nav-item">About</NavLink>}
 
         <NavLink smooth to="#projects" className="nav-item">Work</NavLink>
 
         <NavLink smooth to="#contact" className="nav-item">Contact</NavLink>
         </div>
-        
+
       <About currentSection={currentSection} setSection={setCurrentSection}/>
       <Projects />
       <Contact />

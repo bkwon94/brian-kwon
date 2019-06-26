@@ -1,11 +1,19 @@
 import React from 'react';
-import { NavHashLink as NavLink } from 'react-router-hash-link';
+import { useState, useEffect } from 'react';
 
 const About = ({ currentSection, setSection }) => {
+
+  const handleScroll = () => {
+    setSection('about');
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll)
+  }, [currentSection]);
+
   return (
     <div id="about">
       <section className="container about-container">
-
       </section>
     </div>
   )
