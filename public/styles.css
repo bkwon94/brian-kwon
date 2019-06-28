@@ -115,8 +115,13 @@ body {
 }
 
 /***** PROJECTS SECTION *****/
+
 .projects-container {
   background: #EEE;
+}
+
+.projects-highlight {
+  color: #0adcff;
 }
 
 /***** CONTACT SECTION *****/
