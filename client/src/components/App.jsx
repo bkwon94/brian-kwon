@@ -27,12 +27,14 @@ const App = () => {
 
         {currentSection === 'projects' ? <NavLink smooth to="#projects" className="nav-item projects-highlight">Work</NavLink> : <NavLink smooth to="#projects" className="nav-item">Work</NavLink>}
 
-        <NavLink smooth to="#contact" className="nav-item">Contact</NavLink>
+        {currentSection === 'contact' ? <NavLink smooth to="#contact" className="nav-item contact-highlight">Contact</NavLink> : <NavLink smooth to="#contact" className="nav-item">Contact</NavLink>}
+
+
         </div>
 
       <About currentSection={currentSection} setSection={setCurrentSection}/>
       <Projects currentSection={currentSection} setSection={setCurrentSection}/>
-      <Contact />
+      <Contact setSection={setCurrentSection}/>
     </div>
   )
 }
