@@ -15,7 +15,6 @@ body {
 .container {
   height: 100vh;
   overflow: hidden;
-  display: grid;
 }
 
 /***** MAIN SECTION *****/
@@ -89,6 +88,19 @@ body {
 /***** ABOUT SECTION *****/
 .about-container {
   background: #FFF;
+  display: grid;
+  display: -moz-grid;
+  grid-auto-rows: minmax(125px, auto);
+  grid-auto-columns: minmax(300px, auto);
+  grid-gap: .5rem;
+}
+
+@media screen and (min-width: 40em) {
+  .about-container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.25fr 3fr 1fr;
+    grid-gap: 4px;
+  }
 }
 
 .nav-container {
@@ -120,12 +132,32 @@ body {
 #profile-image {
   height: 250px;
   width: 190px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
 }
 
 @media screen and (min-width: 675px) {
   #profile-image {
     height: 450px;
     width: 350px;
+  }
+}
+
+#about-paragraph {
+  /* grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4; */
+}
+
+@media screen and (min-width: 40em) {
+  #about-paragraph {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
   }
 }
 

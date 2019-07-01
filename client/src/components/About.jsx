@@ -27,6 +27,10 @@ const About = ({ currentSection, setSection }) => {
         <LazyLoad height={200} offset={100}>
           <img id="profile-image" src="./images/profile.jpg" alt="profile photo"/>
         </LazyLoad>
+
+        <div id="about-paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget sem vulputate, congue nibh eget, tempus massa. Curabitur orci arcu, volutpat eu vehicula vel, feugiat non tellus. Mauris luctus dolor ligula, vel feugiat lacus lacinia sit amet. Phasellus ligula orci, tempor quis aliquet at, pellentesque nec mi. Aenean congue metus enim, vitae commodo purus accumsan quis. Ut fringilla aliquam nunc. Mauris facilisis ut sapien sed sollicitudin. Mauris aliquet aliquam ipsum quis condimentum.
+        </div>
       </section>
     </div>
   )
