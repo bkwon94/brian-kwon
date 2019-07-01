@@ -118,8 +118,15 @@ body {
 }
 
 #profile-image {
-  height: 100px;
-  width: 90px;
+  height: 250px;
+  width: 190px;
+}
+
+@media screen and (min-width: 675px) {
+  #profile-image {
+    height: 450px;
+    width: 350px;
+  }
 }
 
 /***** PROJECTS SECTION *****/
