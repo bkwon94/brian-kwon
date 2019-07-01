@@ -24,6 +24,7 @@ const About = ({ currentSection, setSection }) => {
   return (
     <div id="about">
       <section className="container about-container">
+        <div className="heading">who i am</div>
         <LazyLoad height={200} offset={100}>
           <img id="profile-image" src="./images/profile.jpg" alt="profile photo"/>
         </LazyLoad>
