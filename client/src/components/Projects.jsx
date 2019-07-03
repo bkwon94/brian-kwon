@@ -1,22 +1,11 @@
 import React from 'react';
+import { detectViewportChange } from '../utils.js';
 import { useState, useEffect } from 'react';
 
 const Projects = ({ currentSection, setSection }) => {
+  const [ sectionName ] = useState('projects');
 
-  const options = {
-    root: null,
-    rootMargin: '0px',
-    threshold: 0.65
-  }
-  const observer = new IntersectionObserver(entries => {
-    if (entries[0].isIntersecting) {
-      setSection('projects');
-    }
-  }, options)
-
-  useEffect(() => {
-    observer.observe(document.querySelector('#projects'));
-  }, [])
+  detectViewportChange(sectionName, setSection);
 
   return (
     <div id="projects">
